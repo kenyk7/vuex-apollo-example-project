@@ -3,12 +3,12 @@ import { SubscriptionClient, addGraphQLSubscriptions } from 'subscriptions-trans
 
 // YOUR_GRAPH_QL_ENDPOINT_HERE
 
-const wsClient = new SubscriptionClient('wss://subscriptions.graph.cool/v1/cj3xgn6d2idze0104n3mpq4le', {
+const wsClient = new SubscriptionClient('wss://subscriptions.graph.cool/v1/cj0t3bw51vtw60102u1impjua', {
 	reconnect: true,
 });
 
 const networkInterface = createNetworkInterface({
-	uri: 'https://api.graph.cool/simple/v1/cj3xgn6d2idze0104n3mpq4le'
+	uri: 'https://api.graph.cool/simple/v1/cj0t3bw51vtw60102u1impjua'
 });
 
 const networkInterfaceWithSubscriptions = addGraphQLSubscriptions(
